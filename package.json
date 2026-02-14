@@ -1,0 +1,13 @@
+{
+  "name": "oxc-issue-18749-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproduction for oxc issue #18749 - oxfmt produces different Tailwind CSS ordering between Linux and macOS",
+  "scripts": {
+    "fmt": "oxfmt test.tsx",
+    "fmt:check": "oxfmt --check test.tsx"
+  },
+  "devDependencies": {
+    "oxfmt": "latest"
+  }
+}
